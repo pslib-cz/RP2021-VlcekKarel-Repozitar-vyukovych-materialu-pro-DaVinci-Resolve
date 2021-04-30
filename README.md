@@ -1,5 +1,6 @@
-Tohle je zasim jen test
+rocnikova_prace_vlcek je neplatná verze
+Vlcek_RP_4real je aktualní verze
+pslib_davinci.rar obsahu web v aktualním stavu
 
-Rocnikovka zatim moc neslape
 
-Kontrola o 2 týdny dřív mi udělala trochu čáru přes rozpočet :(
+Doplnil jsem seznam v kapitoly.docx o více zdrojů

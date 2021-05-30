@@ -1,0 +1,52 @@
+/*NOT MAIN*/
+
+/**/
+h1{
+    text-align: center;
+    color: var(--svetle-modra);
+
+}
+
+iframe{
+    margin: auto;
+
+}
+
+.panels__page *{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.video__popis{
+max-width: 1000px;
+margin: auto;
+margin-bottom: 1em;
+}
+
+
+
+details {
+    max-width: 1000px;
+    margin: auto;
+    padding: .5em .5em 0;
+}
+
+/*Navody*/
+summary{
+    color: var(--svetle-modra);
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    font-size: 20px;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    margin-bottom: .5em;
+}

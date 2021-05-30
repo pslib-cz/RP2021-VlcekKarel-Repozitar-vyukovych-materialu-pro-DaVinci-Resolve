@@ -3,5 +3,9 @@
     --seda: #262626;
     --svetle-modra: #63c5da;
     --skoro-cerna: #090909;
+    --bila: #ffffff;
+    --cerna: #000000;
   }
   
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');

@@ -6,6 +6,7 @@
 | .__/|_|  \___|\__,_|\___|_|\__,_|\__|  \___\___/|_| |_| |_|_| |_| |_|\___|_| |_|\__|___/
 | |                                                                                       
 |_| 
+
 */
 
 *{
@@ -19,9 +20,7 @@
 html {
     scroll-behavior: smooth;
     height: 100%;
-    scrollbar-width: none;  /* Firefox */
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+
 }
 
 
@@ -30,6 +29,7 @@ body {
     font-size: 12pt;
     background-color: var(--seda);
     -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
@@ -44,7 +44,7 @@ a {
 
 
 p{
-    color: var(--bila);
+    color: white;
 
 
 }    
@@ -75,6 +75,7 @@ header nav{
     list-style: none;
     display: flex;
     justify-content: flex-end;
+    padding-top: 1em;
 
 }
 .header-pages li{
@@ -90,20 +91,15 @@ text-align: center;
 
 
 .header-pages li a img{
-    max-width: 134px;
+    height: 40px;
+    width: 40px;
+    padding: 10px 35px 10px 35px;
     background-color: var(--seda);
     border-radius: 10px;
 
 }
 
 /*MAIN*/
-
-main{
-    max-width: 1600px;
-    margin: auto;
-
-
-}
 
 
 .clanek:first-child{
@@ -120,33 +116,27 @@ main{
 
 }
 
-h2{
-    color: var(--bila);
-
-}
-
-.clanek--lichy h2{
+.clanek-lichy h2{
     grid-column: 1/2;
     grid-row: 1/2;
 
 }
 
-.clanek--lichy p{
+.clanek-lichy p{
     grid-column: 1/2;
     grid-row: 2/4;
     margin-bottom: 3em;
 
 }
 
-.clanek--lichy img{
+.clanek-lichy img{
     width: 45vw;
-    max-width: 850px;
     grid-column: 2/3;
     grid-row: 1/6;
 
 }
 
-.clanek__odavinci div.download{
+.clanek-odavinci div.download{
     grid-column: 1/2;
     grid-row: 4/5;
     margin-bottom:  1em ;
@@ -154,33 +144,52 @@ h2{
 
  }
 
-.clanek__odavinci .download-link{
-    color: var(--bila);
+.clanek-odavinci .download-link{
+    color: white;
     background-color: var(--svetle-modra);
     padding: 1em;
     border-radius: 50px;
 
 }
 
-.clanek--sudy h2{
+.clanek-sudy h2{
     grid-column: 2/3;
     grid-row: 1/2;
 
 }
 
-.clanek--sudy p{
+.clanek-sudy p{
     grid-column: 2/3;
     grid-row: 2/4;
     margin-bottom: 3em;
 
 }
 
-.clanek--sudy img{
+.clanek-sudy img{
     width: 45vw;
     grid-column: 1/2;
     grid-row: 1/6;
-    max-width: 850px;
 
 }
 
 
+/*NOT MAIN(cut)*/
+
+h1{
+    text-align: center;
+
+
+}
+
+iframe{
+    margin: auto;
+
+}
+
+.panels-page *{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaVinci resolve - Delivery</title>
+    <link rel="stylesheet" href="styles/nomalize.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/styles_nothome.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+
+
+            <div class="header-logo">
+                <a href="./index.html"><img src="./images/pslibl.png" alt="home"></a>
+                <a href="./index.html"><img src="./images/resolvelogor.png" alt="home"></a>
+            </div>
+            <ul class="header-pages">
+                <li><a href="./cut.html" alt="cut"><img src="./images/cut.jpg">
+                        <p>Cut</p>
+                    </a></li>
+                <li><a href="./edit.html" alt="edit"><img src="./images/edit.jpg">
+                        <p>Edit</p>
+                    </a></li>
+                <li><a href="./fusion.html" alt="fusion"><img src="./images/fusion.jpg">
+                        <p>Fusion</p>
+                    </a></li>
+                <li><a href="./color.html" alt="fusion"><img src="./images/color.jpg">
+                        <p>Color</p>
+                    </a></li>
+                <li><a href="./fairlight.html" alt="fairlight"><img src="./images/fairlight.jpg">
+                        <p>Fairlight</p>
+                    </a></li>
+                <li><a href="./delivery.html" alt="delivery"><img src="./images/deliver.jpg">
+                        <p>Delivery</p>
+                    </a></li>
+            </ul>
+
+
+        </nav>
+        <div class="hamburger">
+            <div class="topnav">
+                <a href="./index.html" class="active">
+                    <img class="burger__logo" src="./images/logo.png">
+                </a>
+                <div id="myLinks">
+                    <a href="./cut.html">Cut</a>
+                    <a href="./edit.html">Edit</a>
+                    <a href="./fusion.html">Fusion</a>
+                    <a href="./cut.html">Color</a>
+                    <a href="./edit.html">Fairlight</a>
+                    <a href="./fusion.html">Delivery</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"><img class="burgericona" src="./images/burger.png"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <h1>Delivery Panel</h1>
+        <section>
+            <p class="video__popis">V Delivery page se exportují hotová vida. Při exportu si můžeme vybrat formát,
+                codec, rozlišení, framerate, úsek který chceme z projektu exportovat a mnoho dalších věcí.
+                Jedna věc, na kterou nesmíme zapomenout je exportování titulků, pokud jsme je nepřidávali jako samotný
+                text. Export titulků povolíme v „subtitle settings“ a máme možnost si vybrat mezi souborem, který se nám
+                exportuje vedle našeho videa, a díky tomu půjdou titulky schovat. Anebo takzvané „vypálení“ díky čemuž
+                se titulky stanou neoddělitelnou částí videa.
+            </p>
+            <div class="panels__page">
+                <div class=" whatis whatis__delivery">
+                    <iframe src="https://www.youtube.com/embed/bbPbG89WuYo" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <details>
+                <summary>Bitrate</summary>
+                <p>Bitrate určuje množství dat, které je pro dané videu rozkódováno za sekundu. Čím větší bitrate, tím
+                    větší kvalita a plynulost, ale zároveň velikost videa. Každé nastavení videa má doporučený bitrate.
+                </p>
+            </details>
+
+            <div class="panels__page">
+                <div class=" whatis whatis__sorucetape">
+                    <iframe src="https://www.youtube.com/embed/vLIznXy27Pc" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+    </main>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

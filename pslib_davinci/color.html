@@ -16,6 +16,7 @@
     <header>
         <nav>
 
+
             <div class="header-logo">
                 <a href="./index.html"><img src="./images/pslibl.png" alt="home"></a>
                 <a href="./index.html"><img src="./images/resolvelogor.png" alt="home"></a>
@@ -40,8 +41,27 @@
                         <p>Delivery</p>
                     </a></li>
             </ul>
-        </nav>
 
+
+        </nav>
+        <div class="hamburger">
+            <div class="topnav">
+                <a href="./index.html" class="active">
+                    <img class="burger__logo" src="./images/logo.png">
+                </a>
+                <div id="myLinks">
+                    <a href="./cut.html">Cut</a>
+                    <a href="./edit.html">Edit</a>
+                    <a href="./fusion.html">Fusion</a>
+                    <a href="./cut.html">Color</a>
+                    <a href="./edit.html">Fairlight</a>
+                    <a href="./fusion.html">Delivery</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"><img class="burgericona" src="./images/burger.png"></i>
+                </a>
+            </div>
+        </div>
     </header>
 
 
@@ -54,9 +74,8 @@
                 a poté ručně doladit přesný odstín barvy, kterou budeme upravovat. Toto je velice užitečné, pokud chceme
                 například změnit odstín oblohy a nemáme čas na klíčování.</p>
             <div class="panels__page">
-                <div class="whatis__color">
-                    <iframe width="1000" height="562" src="https://www.youtube.com/embed/IJnMkchydrM"
-                        title="YouTube video player" frameborder="0"
+                <div class=" whatis whatis__color">
+                    <iframe src="https://www.youtube.com/embed/IJnMkchydrM" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -72,9 +91,8 @@
             </details>
 
             <div class="panels__page">
-                <div class="whatis__wheels">
-                    <iframe width="1000" height="562" src="https://www.youtube.com/embed/kXtbHtco8S8"
-                        title="YouTube video player" frameborder="0"
+                <div class=" whatis whatis__wheels">
+                    <iframe src="https://www.youtube.com/embed/kXtbHtco8S8" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -95,9 +113,8 @@
             </details>
 
             <div class="panels__page">
-                <div class="whatis__curves">
-                    <iframe width="1000" height="562" src="https://www.youtube.com/embed/_oPJRo_kDuk"
-                        title="YouTube video player" frameborder="0"
+                <div class=" whatis whatis__curves">
+                    <iframe src="https://www.youtube.com/embed/_oPJRo_kDuk" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -115,9 +132,8 @@
             </details>
 
             <div class="panels__page">
-                <div class="whatis__vyvazeni">
-                    <iframe width="1000" height="562" src="https://www.youtube.com/embed/lYEIMnVvJfs"
-                        title="YouTube video player" frameborder="0"
+                <div class=" whatis whatis__vyvazeni">
+                    <iframe src="https://www.youtube.com/embed/lYEIMnVvJfs" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -134,7 +150,16 @@
 
     </main>
 
-
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 
 
 

@@ -16,6 +16,7 @@
     <header>
         <nav>
 
+
             <div class="header-logo">
                 <a href="./index.html"><img src="./images/pslibl.png" alt="home"></a>
                 <a href="./index.html"><img src="./images/resolvelogor.png" alt="home"></a>
@@ -40,8 +41,27 @@
                         <p>Delivery</p>
                     </a></li>
             </ul>
-        </nav>
 
+
+        </nav>
+        <div class="hamburger">
+            <div class="topnav">
+                <a href="./index.html" class="active">
+                    <img class="burger__logo" src="./images/logo.png">
+                </a>
+                <div id="myLinks">
+                    <a href="./cut.html">Cut</a>
+                    <a href="./edit.html">Edit</a>
+                    <a href="./fusion.html">Fusion</a>
+                    <a href="./cut.html">Color</a>
+                    <a href="./edit.html">Fairlight</a>
+                    <a href="./fusion.html">Delivery</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"><img class="burgericona" src="./images/burger.png"></i>
+                </a>
+            </div>
+        </div>
     </header>
 
 
@@ -53,9 +73,8 @@
                 Cut page atd. Jako ostatní funkce v DaVinci je Fairlight page designovaný tak, aby základní činnosti
                 byli velice jednoduché a zároveň aby zkušený střihač byl schopný udělat, cokoliv se mu zlíbí.</p>
             <div class="panels__page">
-                <div class="whatis__color">
-                    <iframe width="1000" height="562" src="https://www.youtube.com/embed/9zeObEITN8Q"
-                        title="YouTube video player" frameborder="0"
+                <div class=" whatis whatis__fairlight">
+                    <iframe src="https://www.youtube.com/embed/9zeObEITN8Q" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -75,9 +94,8 @@
             </details>
 
             <div class="panels__page">
-                <div class="whatis__3Dtext">
-                    <iframe width="1000" height="562" src="https://www.youtube.com/embed/mr4IMsyNDxo"
-                        title="YouTube video player" frameborder="0"
+                <div class=" whatis whatis__normalize">
+                    <iframe src="https://www.youtube.com/embed/mr4IMsyNDxo" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -99,9 +117,8 @@
             </details>
 
             <div class="panels__page">
-                <div class="whatis__3Dtext">
-                    <iframe width="1000" height="562" src="https://www.youtube.com/embed/IdItBfi4ZzM"
-                        title="YouTube video player" frameborder="0"
+                <div class=" whatis whatis__limiter">
+                    <iframe src="https://www.youtube.com/embed/IdItBfi4ZzM" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -115,7 +132,16 @@
 
     </main>
 
-
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 
 
 

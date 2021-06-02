@@ -14,6 +14,7 @@
     <header>
         <nav>
 
+
             <div class="header-logo">
                 <a href="./index.html"><img src="./images/pslibl.png" alt="home"></a>
                 <a href="./index.html"><img src="./images/resolvelogor.png" alt="home"></a>
@@ -38,8 +39,27 @@
                         <p>Delivery</p>
                     </a></li>
             </ul>
-        </nav>
 
+
+        </nav>
+        <div class="hamburger">
+            <div class="topnav">
+                <a href="./index.html" class="active">
+                    <img class="burger__logo" src="./images/logo.png">
+                </a>
+                <div id="myLinks">
+                    <a href="./cut.html">Cut</a>
+                    <a href="./edit.html">Edit</a>
+                    <a href="./fusion.html">Fusion</a>
+                    <a href="./cut.html">Color</a>
+                    <a href="./edit.html">Fairlight</a>
+                    <a href="./fusion.html">Delivery</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"><img class="burgericona" src="./images/burger.png"></i>
+                </a>
+            </div>
+        </div>
     </header>
     <main>
         <!--<h1></h1>    neco sem napsat a schovat -->
@@ -75,13 +95,17 @@
     </main>
 
 
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 
-    <footer>
-
-        <!--odkaz na reddit, ofiko stránku, treba nejakej support a stranku skoly -->
-
-
-    </footer>
 </body>
 
 </html>
